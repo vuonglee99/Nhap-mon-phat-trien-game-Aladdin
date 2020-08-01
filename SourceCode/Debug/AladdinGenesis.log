@@ -1,0 +1,4 @@
+﻿  SceneGame.cpp
+d:\game\game(3)\aladdingenesis\monkey.h(9): warning C4005: 'ACTIVATE_ZONE': macro redefinition
+  d:\game\game(3)\aladdingenesis\guard.h(8): note: see previous definition of 'ACTIVATE_ZONE'
+  AladdinGenesis.vcxproj -> D:\Game\Game(3)\Debug\AladdinGenesis.exe

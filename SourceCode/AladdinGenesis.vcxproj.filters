@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameComponents">
+      <UniqueIdentifier>{fcb36d8d-714e-4d85-a916-90d3540ab80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainCharacter">
+      <UniqueIdentifier>{2f3a9b81-d8ba-4556-976f-c8d58caf0631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{5aa4c9af-89fb-40e3-ae6a-62fb5d083b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\CGame">
+      <UniqueIdentifier>{98cb1a90-526e-4430-9805-9854a6eaf16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{751d8892-12a5-4320-af92-c4e411afa93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game">
+      <UniqueIdentifier>{f5320488-313d-439a-be8d-a909cbf3cc72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene">
+      <UniqueIdentifier>{8abd4a4e-60d5-4927-aef5-54fd84b89afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\GameObject">
+      <UniqueIdentifier>{1f1b41c8-a4ed-455c-b7d2-d1086e65370c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Texture">
+      <UniqueIdentifier>{7d38148c-8b9f-41d8-8c7f-14235da30399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\GameDefine">
+      <UniqueIdentifier>{fb888af6-d0d5-4b3e-979a-d99b2aeb35da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\GameMap">
+      <UniqueIdentifier>{90ed104a-5988-4f90-ae60-a5c0c5a8b32c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Camera">
+      <UniqueIdentifier>{f2e670fb-5a3c-4bb8-a96a-184cc636e221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\KeyBoards">
+      <UniqueIdentifier>{f2b611bb-16a4-44e3-9e32-7de7942df2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Brick">
+      <UniqueIdentifier>{fae44a50-7fc0-4e63-93d5-8abddc8586b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Grid">
+      <UniqueIdentifier>{bba1f2b5-603b-4f46-8a3f-f08139d2e188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Debug">
+      <UniqueIdentifier>{acaba393-7af3-4e5e-984c-c28b66b822ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy">
+      <UniqueIdentifier>{53de7b66-caf6-4cbe-a346-c3bab1df0059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Arrow">
+      <UniqueIdentifier>{10d62f42-67b9-4344-a606-e407e6487667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bob">
+      <UniqueIdentifier>{33a83c42-f809-4079-80ee-1e914115cab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\MovingBrick">
+      <UniqueIdentifier>{461f01ad-c997-438d-bca3-c76bf5831336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Wall">
+      <UniqueIdentifier>{a77fbf38-215f-499e-ac67-0cdd623461a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Rope">
+      <UniqueIdentifier>{3372209a-9a96-4e4c-b330-ca56d53d12e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon">
+      <UniqueIdentifier>{cabc3d75-0588-4d83-8b98-d43ccc9ab7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon\Apple">
+      <UniqueIdentifier>{2300a2af-0f0b-4e4b-934f-3167a67f292e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Items">
+      <UniqueIdentifier>{68df5e83-e57f-465f-a3a7-957e51ea4673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Items\AppleItems">
+      <UniqueIdentifier>{a2baa825-cc5b-4f41-8dc2-d72699edf777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Items\Red Jewel">
+      <UniqueIdentifier>{5c7300bb-f0fa-4033-a9e8-cb05e6fb095f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Items\Genie">
+      <UniqueIdentifier>{d36b18f7-ecba-496b-8b09-3dd6bf5dd13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Items\Heart">
+      <UniqueIdentifier>{6817defb-d9a3-431a-b8e2-0064c845028b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Items\RestartPoint">
+      <UniqueIdentifier>{3fd21d5e-d7d7-448e-9b42-53826329e0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Board">
+      <UniqueIdentifier>{36b06c7f-8bbc-4ec4-a01c-a5aebea3b0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Board\HealthBoard">
+      <UniqueIdentifier>{329d7493-056e-413e-8d44-b540a5b043cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Board\RedJewelBoard">
+      <UniqueIdentifier>{f877fbd0-0a23-4b9e-903c-06d9b13cd181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Board\Font">
+      <UniqueIdentifier>{0c963efb-9581-4780-8e19-bc7abd558110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Board\AppleBoard">
+      <UniqueIdentifier>{4b295f47-0db9-4d21-83b4-dac2076c4cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Bat">
+      <UniqueIdentifier>{49f3d52e-5468-4e76-8c5b-4c70ad76a2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Guard">
+      <UniqueIdentifier>{a6603e30-0b44-4dba-be5b-a1a396be3f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon\GuardWeapon">
+      <UniqueIdentifier>{3d6834e2-c320-4c82-977c-97ce5bdaffb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Skeleton">
+      <UniqueIdentifier>{d788f150-8a82-45d0-b6f9-fb7291e019d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Monkey">
+      <UniqueIdentifier>{53c7cc69-7222-46fb-adfc-1273b87dcf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon\Bone">
+      <UniqueIdentifier>{48cfc753-1043-4f93-afbf-bf65b4628d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Boss">
+      <UniqueIdentifier>{160b1a90-1884-45f1-a285-f9faa9da0aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon\SwirlFire">
+      <UniqueIdentifier>{5884141f-69ce-4d52-b780-d8557f0cbec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon\Fire">
+      <UniqueIdentifier>{bcf9d9da-6a74-4922-89bb-e053d97b5cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents\Sound">
+      <UniqueIdentifier>{2cb914b2-4c6d-408c-ae41-4ceb2d1f6b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon\StaticFire">
+      <UniqueIdentifier>{54ebff63-89a2-480d-9294-b630c91947c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>GameComponents\CGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scenes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame.cpp">
+      <Filter>Scenes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>GameComponents\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>GameComponents\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameComponents\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>GameComponents\GameMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameComponents\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>GameComponents\KeyBoards</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Object\Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>GameComponents\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>GameComponents\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Aladin.cpp">
+      <Filter>MainCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>GameComponents\GameMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Object\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Bob.cpp">
+      <Filter>Object\Bob</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingBrick.cpp">
+      <Filter>Object\MovingBrick</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="Rope.cpp">
+      <Filter>Object\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple.cpp">
+      <Filter>Object\Weapon\Apple</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Object\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleItem.cpp">
+      <Filter>Object\Items\AppleItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>Object\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="RedJewel.cpp">
+      <Filter>Object\Items\Red Jewel</Filter>
+    </ClCompile>
+    <ClCompile Include="Genie.cpp">
+      <Filter>Object\Items\Genie</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>Object\Items\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="RestartPoint.cpp">
+      <Filter>Object\Items\RestartPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBoard.cpp">
+      <Filter>GameComponents\Board\HealthBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>GameComponents\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="RedJewelBoard.cpp">
+      <Filter>GameComponents\Board\RedJewelBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>GameComponents\Board\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleBoard.cpp">
+      <Filter>GameComponents\Board\AppleBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Object\Enemy\Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard.cpp">
+      <Filter>Object\Enemy\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordGuard.cpp">
+      <Filter>Object\Weapon\GuardWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Object\Enemy\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Monkey.cpp">
+      <Filter>Object\Enemy\Monkey</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Object\Weapon\Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneIntro.cpp">
+      <Filter>Scenes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="define.cpp">
+      <Filter>GameComponents\GameDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBoss.cpp">
+      <Filter>Scenes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Object\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="SwirlFire.cpp">
+      <Filter>Object\Weapon\SwirlFire</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Object\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>Object\Weapon\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneWin.cpp">
+      <Filter>Scenes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DSutil.cpp">
+      <Filter>GameComponents\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>GameComponents\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>GameComponents\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameOver.cpp">
+      <Filter>Scenes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticFire.cpp">
+      <Filter>Object\Weapon\StaticFire</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGame.h">
+      <Filter>GameComponents\CGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scenes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame.h">
+      <Filter>Scenes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>GameComponents\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>GameComponents\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>GameComponents\GameDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameComponents\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>GameComponents\GameMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameComponents\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>GameComponents\KeyBoards</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Object\Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>GameComponents\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>GameComponents\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Aladin.h">
+      <Filter>MainCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>GameComponents\GameMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Object\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="Bob.h">
+      <Filter>Object\Bob</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingBrick.h">
+      <Filter>Object\MovingBrick</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
+      <Filter>Object\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>Object\Weapon\Apple</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Object\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleItem.h">
+      <Filter>Object\Items\AppleItems</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Object\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="RedJewel.h">
+      <Filter>Object\Items\Red Jewel</Filter>
+    </ClInclude>
+    <ClInclude Include="Genie.h">
+      <Filter>Object\Items\Genie</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>Object\Items\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="RestartPoint.h">
+      <Filter>Object\Items\RestartPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBoard.h">
+      <Filter>GameComponents\Board\HealthBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>GameComponents\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="RedJewelBoard.h">
+      <Filter>GameComponents\Board\RedJewelBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>GameComponents\Board\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleBoard.h">
+      <Filter>GameComponents\Board\AppleBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Object\Enemy\Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.h">
+      <Filter>Object\Enemy\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordGuard.h">
+      <Filter>Object\Weapon\GuardWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Object\Enemy\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Monkey.h">
+      <Filter>Object\Enemy\Monkey</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Object\Weapon\Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneIntro.h">
+      <Filter>Scenes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBoss.h">
+      <Filter>Scenes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Object\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="SwirlFire.h">
+      <Filter>Object\Weapon\SwirlFire</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Object\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Object\Weapon\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneWin.h">
+      <Filter>Scenes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DSutil.h">
+      <Filter>GameComponents\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>GameComponents\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>GameComponents\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameOver.h">
+      <Filter>Scenes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticFire.h">
+      <Filter>Object\Weapon\StaticFire</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
